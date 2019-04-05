@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Side Alley Sundays</title>
+        <meta name="music" content="Local Muisc Videos">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="site.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+</head>
+
+<header>
+  <nav>
+      <ul>
+          <li><a href="YoutubePage.html">Videos</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact and Connect</a></li>
+          <li><a href="http://eepurl.com/c_KLeX" target="_blank">Join Us!</a></li>
+          <li><a href="https://sidealleysundays.wordpress.com/" target="_blank">Blog</a></li>
+      </ul>
+  </nav>
+</header>  
+        <h1 id="mainHeading"><a href="index.html">Side Alley Sundays</a></h1>
+        
+        
+        <div id="logoCat">
+                <img src="img\SAS_Sally_the_Cat_250x250px_brown_w_Note.png">
+                <a href="http://eepurl.com/c_KLeX" target="_blank"><img src="img/SAS_Sally_the_Cat_250x250px_brown_w_Note.png"></a>
+            </div>
+
+                        
+             <!--SearchBox-->
+                                                       
+             <div class="ui-widget">
+                  <h2>Search for a Artist:</h2>
+                  <label for="tags"></label>
+                  <input id="tags" onkeydown="if (event.keyCode == 13) {goToSelectedVideo(); return false; }" class="ui-autocomplete-input" autocomplete="on">
+                  <button type="button" onclick="goToSelectedVideo()" value="Go">Go</button>
+                </div>
+        
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+            <body>
+                        
+                            <main role="main">
+                                <section class="videos" id="featured-videos">
+                                        <div class="video-grid front-page" id="front-page-videos">
+                                          <ul class="video-list featured">
+
+                                            <li class="video featured" id="tommyalexander" class="artistName">
+                                              <a data-fancybox href="https://www.youtube.com/embed/XapTTYKiekU?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video"></a>
+                                    <figure style="background-image: url(https://i.ytimg.com/vi/XapTTYKiekU/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDlcODr2tJqqtuuKWH9hamZYMao1A;">
+                                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                        <figcaption>Tommy Alexander</figcaption>
+                                </figure>
+                              </a>
+                            </li>
+
+                            <li class="video featured" id="melodieayresandcollinstackhouse" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/KZt9IEX_N-Y?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/KZt9IEX_N-Y/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC3SiE6vGD_NoyXH62HBi02w5-OLA);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Melodie Ayres and Collin Stackhouse</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+
+                              <li class="video featured" id="benanddavis" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/40im_93P3AE?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/40im_93P3AE/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBylS2cufl2lnZjiJHzgtfB_rrtfw);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Ben and Davis</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+        
+                              <li class="video featured" id="isabeauwaia'uwalker" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/1vMsvOx065I?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/1vMsvOx065I/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCnWL1KuaORgfqcvr5Ge8QF3sBAog);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Isabeau Waia'u Walker</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+        
+                              <li class="video featured" id="raphaelkrasnow" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/5lwzvPRgZ3M?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/5lwzvPRgZ3M/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDpEUePRO9mXhW6L7Wlfpnh326hHA);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Raphael Krasnow</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+        
+                              <li class="video featured" id="b.r.mount" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/eWRLblR0Np4?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/eWRLblR0Np4/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBdMaL3PZ1VqfA6x771a1BP0ILL_w);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>B. R. Mount</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+                           
+                              <li class="video featured" id="barebones" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/fJFm_WibkvA?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/fJFm_WibkvA/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDkAy-nkX9Fbh_4bmzaqu8e4N5RdQ);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>bare bones</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+        
+                              <li class="video featured" id="dennisdabbs" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/65Dg-4I-UCA?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/65Dg-4I-UCA/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAXjkKykTtacCmSqbR3Y2TJ6yGVnw);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Dennis Dabbs</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+        
+                              <li class="video featured" id="shanebrown" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/W2wwQr-2dow?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/W2wwQr-2dow/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB7quzub1qfKhqIkfnQMH3sBUkKHg);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Shane Brown</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+        
+                              <li class="video featured" id="ewaynejones" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/IljdnsdmfVk?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/IljdnsdmfVk/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBjOFbgBg9m04hg_L-fvfvix2fAVA);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>E. Wayne Jones</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+        
+                              <li class="video featured" id="roulettedelgato" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/LwqzVZCs4KU?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/LwqzVZCs4KU/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBi7acJXdjnXbmcejDUcfG1drVgrw);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Roulette Delgato</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+
+                              <li class="video featured" id="cjhawley" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/lXzqxhAmtDY?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/lXzqxhAmtDY/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD7R_kUqTKxqKjFFblk8NlDjh0S4w);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>CJ Hawley</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+        
+                              <li class="video featured" h3 id="complimentarycolors" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/jEkOhOICEfs?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/jEkOhOICEfs/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCMA0poHS5N8TEleRHGD-DdxHsvGw);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Complimentary Colors</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+        
+                            
+                              <li class="video featured" id="benscottanddavisvanluven" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/ruxJ8dNHLZ0?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/ruxJ8dNHLZ0/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBPMtsRLEeHIy2_6VrgHUNLPcmseg);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Ben Scott and Davis Van Luven</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+
+                              <li class="video featured" id="lowkey" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/-vlHIv3B-Ec?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/-vlHIv3B-Ec/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDrlFgGdAKiWEMnFUHW1EE2YLcxwA);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Low Key</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+        
+                              <li class="video featured" id="tigersofyouth" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/t5fTKnEx1IA?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/t5fTKnEx1IA/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLA-RfU32lSz7AMHonIBgfZCNaN-YQ);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Tigers of Youth</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+        
+                              <li class="video featured" id="maxwellcabana" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/aiYu7pG2L3I?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/aiYu7pG2L3I/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBVpiSSTm6u23fmdoO8P7WzaXyEJw);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Maxwell Cabana</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+
+                              <li class="video featured" id="enderraine" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/NGvokxaySVA?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/NGvokxaySVA/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAXwhgkXTUPTARTQW5_8EsrPzgrVg);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Ender Raine</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+        
+                              <li class="video featured" id="dannyverdieck" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/1ekv3eC2Khc?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/1ekv3eC2Khc/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAflrTSclrEpCZkUXXHMVl3TwAm3w);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Danny Verdieck</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+                      
+                              <li class="video featured" id="salvatoremanalo" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/Kqkpt0CCrLc?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/Kqkpt0CCrLc/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAZrsX3Za4RFlA8djs3XMKz3ughMA);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Salvatore Manalo</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+                      
+                              <li class="video featured" id="calebandthemonsters" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/FM34g03GYZE?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/FM34g03GYZE/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCNWfHhN91IQCvfXiDtlF5MNsG-Og);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Caleb and the Monsters</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+                      
+                              <li class="video featured" id="bobbymusgrave" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/jc82xu_kNw4?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/jc82xu_kNw4/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC4IlMGI-1qd1yXk-Im5-FDZAqi4w);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Bobby Musgrave</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+                      
+                              <li class="video featured" id="evanknapp" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/8ldZP0CK4s0?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/8ldZP0CK4s0/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCVGki7n9y7Xk6GofoWf8x-OPCC4w);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Evan Knapp</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+                      
+                              <li class="video featured" id="annasage" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/t_oufjZ1fJI?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/t_oufjZ1fJI/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDqQGE2fNj_MwMQfJUFEWnqo6P8cQ);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Anna Sage</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+                      
+                              <li class="video featured" id="iszybonney" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/6gkh8vD9_yc?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/6gkh8vD9_yc/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAi5NesW8pBWNOMEyawpcCuwlTGSA);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Iszy Bonney</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+                      
+                              <li class="video featured" id="davisvanluven" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/qDK86kzgUPg?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/BznBFjjRIjk/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDWyng0l_puxIKwoyHBINidey_2jw);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Davis Van Luven</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+                      
+                              <li class="video featured" id="brianbays" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/MU2o0ZnaV-4?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/MU2o0ZnaV-4/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD8lY-tdOmRLDLtti7BVUYBdrM3Eg);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Brian Bays</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+                      
+                              <li class="video featured" id="benscott" class="artistName">
+                                <a data-fancybox href="https://www.youtube.com/embed/a2yz-OIKce8?autoplay=1&controls=0&showinfo=0&color=white&rel=0" class="featured-video">
+                                  <figure style="background-image: url(https://i.ytimg.com/vi/a2yz-OIKce8/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB8xFhBoLNCedb_fZHKluGtck2xtg);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Ben Scott</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+                        </ul>
+                    </div>
+                    <script>
+                     
+
+                    function goToSelectedVideo() {
+                      var searchInput = document.getElementById('tags').value;       //pull value from textbox
+                      var searchId = searchInput.replace(/\s/g, '').toLowerCase();      //get rid of spaces and lowercase
+                      var goId = document.getElementById(searchId);                     //assign 
+                      console.log(goId);              
+                      goId.scrollIntoView();                                            //scroll
+                   
+                  
+                  }
+                  
+                  // ----Pop up list
+                  
+                   $( function() {
+                      var availableTags = [
+                        "Anna Sage",
+                        "Ben Scott",
+                        "Brian Bays",
+                        "Davis Van Luven",
+                        "Iszy Bonney",
+                        "Evan Knapp",
+                        "Bobby Musgrave",
+                        "Caleb and the Monsters",
+                        "Salvatore Manalo",
+                        "Danny Verdieck",
+                        "Ender Raine",
+                        "Maxwell Cabana",
+                        "Tigers of Youth",
+                        "Ben Scott and Davis Van Luven",
+                        "Complimentary Colors",
+                        "E Wayne Jones",
+                        "Roulette Delgato",
+                        "CJ Hawley",
+                        "Shane Brown",
+                        "Dennis Dabbs",
+                        "bare bones",
+                        "B. R. Mount",
+                        "Raphael Krasnow",
+                        "Isabeau Waia'u Walker",
+                        "Ben and Davis",
+                        "Melodie Ayres and Collin Stackhouse",
+                        "Tommy Alexander",
+                        "Low Key",
+                        "E. Wayne Jones",
+                        "ewaynejones",
+                        "Isabeau Waia'u Walker"
+                  
+                           ];
+                      $( "#tags" ).autocomplete({
+                        source: availableTags
+                      });
+                    } );
+                  </script>
+            </section>
+        <footer>
+                <script src="JS\JS"></script>
+        </footer>
+    </main>
+</html>
+            

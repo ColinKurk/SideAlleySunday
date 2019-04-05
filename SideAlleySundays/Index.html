@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>Side Alley Sundays</title>
+                <meta name="music" content="Local Muisc Videos">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="site.css">
+                <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+                <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+                <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+                <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+                <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+          <header>
+              
+                        <nav>
+                            <ul>
+                                <li><a href="YoutubePage.html">Videos</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Contact and Connect</a></li>
+                                <li><a href="http://eepurl.com/c_KLeX" target="_blank">Join Us!</a></li>
+                                <li><a href="https://sidealleysundays.wordpress.com/" target="_blank">Blog</a></li>
+                            </ul>
+                        </nav>
+                    </header>  
+        <body>
+             
+                        <h1 id="mainHeading">
+                                <a href="Index.html">Side Alley Sundays</a>
+                        </h1>
+                        
+                        <div id="logoCat">
+                            <img src="img\SAS_Sally_the_Cat_250x250px_brown_w_Note.png">
+                            <!-- <a href="http://eepurl.com/c_KLeX" target="_blank"> -->
+                        </div>
+                    </div>  
+
+                    <h2 id="subHeading">Howdy! Every Sunday we hang out in an alley with a different Portland musician and film the experience. We know how that sounds but believe us, it's all about the music! 
+                        <br>
+                        <br>Welcome to Side Alley Sundays!
+                    </h2>
+                        
+                                                                         <!--SlideShow-->
+
+                        <h2 class="w3-center">Recent Pictures</h2>
+
+                        <div class="w3-content w3-section" style="max-width:500px">
+                        
+                                <img class="mySlides" src="img\img1.jpg" style="width:100%">
+                                <img class="mySlides" src="img\img2.jpg" style="width:100%">
+                                <img class="mySlides" src="img\img3.jpg" style="width:100%">
+                                <img class="mySlides" src="img\img4.jpg" style="width:100%">
+                               
+                                            
+                                          </div>
+                              
+                        </div>      
+                                  
+                                     <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                </div>
+                    <script>
+                                   var myIndex = 0;
+                                    carousel();
+
+                                    function carousel() {
+                                    var i;
+                                    var x = document.getElementsByClassName("mySlides");
+                                    for (i = 0; i < x.length; i++) {
+                                        x[i].style.display = "none";  
+                                    }
+                                    myIndex++;
+                                    if (myIndex > x.length) {myIndex = 1}    
+                                    x[myIndex-1].style.display = "block";  
+                                    setTimeout(carousel, 2000); // Change image every 2 seconds
+                                    }
+                </script>
+                                
+        </body>
+       
+</html>
+

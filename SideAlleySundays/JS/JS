@@ -1,0 +1,53 @@
+function goToSelectedVideo() {
+    var searchInput = document.getElementById('tags').value;       //pull value from textbox
+    var searchId = searchInput.replace(/\s/g, '').toLowerCase();      //get rid of spaces and lowercase
+    var goId = document.getElementById(searchId);                     //assign 
+    console.log(goId);              
+    goId.scrollIntoView();                                            //scroll
+ 
+
+}
+
+// ----Pop up list
+
+ $( function() {
+    var availableTags = [
+      "Anna Sage",
+      "Ben Scott",
+      "Brian Bays",
+      "Davis Van Luven",
+      "Iszy Bonney",
+      "Evan Knapp",
+      "Bobby Musgrave",
+      "Caleb and the Monsters",
+      "Salvatore Manalo",
+      "Danny Verdieck",
+      "Ender Raine",
+      "Maxwell Cabana",
+      "Tigers of Youth",
+      "Ben Scott and Davis Van Luven",
+      "Complimentary Colors",
+      "E Wayne Jones",
+      "Roulette Delgato",
+      "CJ Hawley",
+      "Shane Brown",
+      "Dennis Dabbs",
+      "bare bones",
+      "B. R. Mount",
+      "Raphael Krasnow",
+      "Isabeau Waia'u Walker",
+      "Ben and Davis",
+      "Melodie Ayres and Collin Stackhouse",
+      "Tommy Alexander"
+
+         ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+  } );
+
+  // search function
+
+  
+
+
